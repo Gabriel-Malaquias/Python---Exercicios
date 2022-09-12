@@ -1,0 +1,5 @@
+nome = str(input('Qual seu nome completo ? ')).strip()
+print('No seu nome tem Silva ? {}'.format('SILVA'in nome.upper()))
+idade = int(input('Sua idade: '))
+print('É maior de 18 ? {}'.format(idade > 18))
+print('Lamentamos, alem de nao ter Silva no nome, voce é de menor idade \n Portanto, nao entrara no puteiro')
